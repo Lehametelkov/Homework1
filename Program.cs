@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Введите элементы массива через запятую:");
+﻿Console.WriteLine("Введите элементы массива через запятую и без пробелов:");
 string[] Array = Console.ReadLine().Split(',');
 
 string[] newArray = new string[Array.Length];
@@ -23,5 +23,5 @@ if (newArrayIndex > 0)
 }
 else
 {
-    Console.WriteLine("Вы что-то ввели не так.");
+    Console.Write("Вы что-то ввели не так.");
 }
